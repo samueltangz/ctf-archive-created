@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  elb:
+    build: "./elb"
+    ports:
+      - "0.0.0.0:10000:80"
+    networks:
+      - default
+    depends_on:
+      - db
+  db:
+    image: mysql:8.0
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    volumes:
+      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql:ro
+    environment:
+      MYSQL_ROOT_PASSWORD: 'dd7929a29b7140d1255f1610fd3ae2e7'
+    networks:
+      - default
+networks:
+  default:

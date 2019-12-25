@@ -1,0 +1,43 @@
+body, tr, td {
+color:000000;
+font-size:12px;
+font-family:verdana;
+}
+
+.title {
+font-size:21px;
+text-align:center;
+}
+
+a { color:000000;cursor:pointer; padding: 0px; text-decoration: none;}
+a.link {cursor:pointer; padding: 0px; border-bottom:1px dashed;text-decoration: none;}
+
+img { border: 2px solid #000000;}
+
+.selected {
+ background-color:#dddddd;
+}
+
+.formA {
+ padding: 5px 20px;
+}
+
+.link { cursor:pointer; }
+
+div.bgGreen {
+ background-image: url("images/bg_green.png");
+ color: #008800;
+ padding: 3px;
+}
+
+div.bgRed {
+ background-image: url("images/bg_red.png");
+ color: #ff0000;
+ padding: 3px;
+}
+
+blockquote {
+	margin: 1em 3em;
+	border-left: 2px solid #999999;
+	padding: 1em;
+}

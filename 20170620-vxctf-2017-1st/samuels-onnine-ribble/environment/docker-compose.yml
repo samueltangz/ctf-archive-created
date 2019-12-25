@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  sor:
+    build: "./sor"
+    ports:
+      - "0.0.0.0:10000:80"
