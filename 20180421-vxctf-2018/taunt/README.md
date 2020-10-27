@@ -1,9 +1,13 @@
 Taunt
 ===
 
+## Category
+
+Crypto
+
 ## Description
 
 Short messages are vulnerable to n-th root attack.  I'll make the message longer then!
 
-* [flag.encrypted](challenge/flag.encrypted)
-* [taunt.py](challenge/taunt.py)
+* [flag.encrypted](public/flag.encrypted)
+* [taunt.py](public/taunt.py)

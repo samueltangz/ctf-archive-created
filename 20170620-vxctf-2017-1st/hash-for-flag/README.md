@@ -1,6 +1,10 @@
 Hash for Flag
 ===
 
+## Category
+
+Crypto
+
 ## Description
 
 I have heard that it is impossible to find two strings having the same hash value... Or is it?
@@ -8,4 +12,4 @@ I have heard that it is impossible to find two strings having the same hash valu
 
 ## Flag
 
-vxctf{n0rm4l_h45h3s_c4n_b3_345i1y_f0r9ed}
+`vxctf{n0rm4l_h45h3s_c4n_b3_345i1y_f0r9ed}`

@@ -1,12 +1,16 @@
 EpicRandomRNG
 ===
 
+## Category
+
+Crypto
+
 ## Description
 
 I have made the world's only random number generator - ERRNG!
 `nc localhost 10000`
 
-[errng.py](challenge/errng.py)
+[errng.py](public/errng.py)
 
 ## Flag
 

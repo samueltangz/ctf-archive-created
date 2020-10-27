@@ -1,6 +1,10 @@
 Groundbreaking Conjecture
 ===
 
+## Category
+
+Crypto
+
 ## Description
 
 Samuel has prepared a groundbreaking conjecture to be spoken in VXCON.  Can you guess his approach before he actually speaks?
@@ -9,4 +13,4 @@ Samuel has prepared a groundbreaking conjecture to be spoken in VXCON.  Can you 
 
 ## Flag
 
-vxctf{th1s_i5_n07h1ng_6u7_ck_ck_ck}
+`vxctf{th1s_i5_n07h1ng_6u7_ck_ck_ck}`

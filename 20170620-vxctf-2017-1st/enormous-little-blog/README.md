@@ -1,6 +1,10 @@
 Enormous Little Blog
 ===
 
+## Category
+
+Web
+
 ## Description
 
 Team Don Enormous has a new blog: [Enormous Little Blog](http://localhost:10000).
@@ -9,4 +13,4 @@ Let's give hit a smash!
 
 ## Flag
 
-vxctf{1_d0n7_7h1nk_y0u_kn0w_r3g3x_4nd_c00k13s}
+`vxctf{1_d0n7_7h1nk_y0u_kn0w_r3g3x_4nd_c00k13s}`
