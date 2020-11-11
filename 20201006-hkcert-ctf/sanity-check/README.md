@@ -5,6 +5,11 @@ Sanity Check
 
 Web
 
+## Solves
+
+* 42/69 (Tertiary division)
+* 32/74 (Secondary division)
+
 ## Description
   
 Is your sanity enough? I afraid you are unable to face the upcoming challenges...

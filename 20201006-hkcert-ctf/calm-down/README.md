@@ -5,6 +5,10 @@ Calm Down
 
 Crypto
 
+## Solves
+
+* 1/69 (Tertiary division)
+
 ## Description
   
 I am so excited having a chance talking to Alice. She told me to calm down - and sent me an encrypted secret.

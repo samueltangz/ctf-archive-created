@@ -3,7 +3,12 @@ LF2
 
 ## Category
 
-Misc
+Reverse Engineering
+
+## Solves
+
+* 1/69 (Tertiary division)
+* 0/74 (Secondary division)
 
 ## Description
 

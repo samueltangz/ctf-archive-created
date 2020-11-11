@@ -5,6 +5,11 @@ Sign in please
 
 Crypto
 
+## Solves
+
+* 1/69 (Tertiary division)
+* 0/74 (Secondary division)
+
 ## Description
   
 I have implemented a secure authentication system. You can't eavesdrop the passwords, can you?
