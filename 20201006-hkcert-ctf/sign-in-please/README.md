@@ -8,7 +8,7 @@ Crypto
 ## Solves
 
 * 1/69 (Tertiary division)
-* 0/84 (Secondary division)
+* 0/74 (Secondary division)
 
 ## Description
   
