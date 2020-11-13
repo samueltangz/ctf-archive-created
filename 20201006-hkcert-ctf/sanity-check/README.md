@@ -8,7 +8,7 @@ Web
 ## Solves
 
 * 42/69 (Tertiary division)
-* 32/74 (Secondary division)
+* 32/84 (Secondary division)
 
 ## Description
   
