@@ -1,0 +1,1 @@
+flag = 'firebird{unf0rtun4t3ly_1t_i5_s0_h4rd_t0_g3t_cryp70gr4phy_d0n3_r19h7}'
