@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  flag_check_oracle:
+    build: ./app
+    ports:
+      - "28015:1337"
+    deploy: {resources: {limits: {cpus: '1', memory: 512M}}}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c 'head -c5 </dev/tcp/127.0.0.1/1337 | grep \"Hello\"'"]
+      interval: 30s
+      timeout: 5s
+      retries: 1
+      start_period: 30s

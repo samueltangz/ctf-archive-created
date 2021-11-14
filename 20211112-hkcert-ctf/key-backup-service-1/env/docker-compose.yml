@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  chall:
+    build: ./chall
+    ports:
+      - 28157:1337
+    networks:
+      - default
+    deploy: {resources: {limits: {cpus: '1', memory: 512M}}}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c 'head -c5 </dev/tcp/127.0.0.1/1337 | grep \"[cmd]\"'"]
+      interval: 30s
+      timeout: 5s
+      retries: 1
+      start_period: 30s
+networks:
+  default:

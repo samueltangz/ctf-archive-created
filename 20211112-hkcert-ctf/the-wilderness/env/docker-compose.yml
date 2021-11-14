@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  chall:
+    build: ./chall
+    ports:
+      - 28364:80
+    networks:
+      - default
+    deploy: {resources: {limits: {cpus: '1', memory: 512M}}}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "php -r 'echo file_get_contents(\"http://127.0.0.1:80\");' | grep 'It Works'"]
+      interval: 30s
+      timeout: 5s
+      retries: 1
+      start_period: 30s
+networks:
+  default:
