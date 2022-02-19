@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  chall:
+    build: ./chall
+    ports:
+      - 50003:1337
+    networks:
+      - default
+networks:
+  default:
