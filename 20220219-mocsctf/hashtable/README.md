@@ -7,7 +7,7 @@ Misc
 
 ## Solves
 
-2/43
+3/43
 
 ## Description
 

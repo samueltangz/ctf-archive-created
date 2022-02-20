@@ -7,7 +7,7 @@ Crypto
 
 ## Solves
 
-1/43
+2/43
 
 ## Description
 
