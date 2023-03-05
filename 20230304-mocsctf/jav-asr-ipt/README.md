@@ -7,7 +7,7 @@ crypto
 
 ## Solves
 
-?/?
+0/40
 
 ## Description
 
